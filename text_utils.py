@@ -543,6 +543,7 @@ class TextSource(object):
             with open(fc,'r') as f:
                 for l in f.readlines():
                     line=l.strip()
+                    #import ipdb; ipdb.set_trace()
                     line=line.decode('utf-8')
                     #print line
                     self.txt.append(line)
